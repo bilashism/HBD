@@ -16,17 +16,17 @@ function openFullscreen() {
 }
 openFullscreen();
 /* Close fullscreen */
-function closeFullscreen() {
-    if (document.exitFullscreen) {
-        document.exitFullscreen();
-    } else if (document.mozCancelFullScreen) { /* Firefox */
-        document.mozCancelFullScreen();
-    } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-        document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) { /* IE/Edge */
-        document.msExitFullscreen();
-    }
-}
+// function closeFullscreen() {
+//     if (document.exitFullscreen) {
+//         document.exitFullscreen();
+//     } else if (document.mozCancelFullScreen) { /* Firefox */
+//         document.mozCancelFullScreen();
+//     } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+//         document.webkitExitFullscreen();
+//     } else if (document.msExitFullscreen) { /* IE/Edge */
+//         document.msExitFullscreen();
+//     }
+// }
 //#endregion - end of - fullscreen 
 
 //#region - start of - canvas#cd 
