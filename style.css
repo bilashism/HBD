@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    cursor: crosshair;
+    background-color: #000;
+}
+
+canvas#cd {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+canvas#birthday {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* opacity: 0.5; */
+    /* fill: #00000000 !important; */
+}
